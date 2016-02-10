@@ -1,10 +1,14 @@
+body {
+    background-color:rgb(151,188,240);
+}
+
 #skrollr-body {
     position: relative;
     width: 100%;
     /*height: 5100px;*/
     height: auto;
     overflow-x:hidden;
-    overflow-y: hidden; 
+    overflow-y: hidden;     
     /*edit to get rid of double bar*/
 }
 
@@ -64,11 +68,9 @@
 }
 
 .serif {
-    /*font-family: serif;*/
     font-family: 'NotoSerif-Italic',georgia,serif !important;
-    /*font-family: "NotoSerif-Italic",georgia;*/
     text-transform: none !important;
-    /*font-style: italic !important;*/
+    /*line-height: 110%;*/
 }
 
 .row h1 {
@@ -91,7 +93,7 @@
 
 .row h4.serif {
     letter-spacing: .1rem;
-    line-height: 110%;
+    line-height: 120%;
 }
 
 /*content elements*/
@@ -219,12 +221,26 @@
     left: -10%;    
 }
 
+/*#bg20 {
+    position: fixed;
+    margin-top: 0%;
+    width: 150%;
+    height: 0;
+    background-color:rgb(151,188,240);
+    padding-top: 80%;
+    left: -20%;
+    float: left;
+    display: none;
+    margin-top: -15%;
+    top: 0;
+}*/
+
 #bg2 {
     position: fixed;
     margin-top: 0%;
     width: 150%;
     height: 0;
-    background: url(../files/pngs/45_farmBackground_1500.jpg);
+    background:url(../files/pngs/45_farmBackground_1500.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 80%;
@@ -232,6 +248,7 @@
     float: left;
     display: none;
     margin-top: -15%;
+    bottom: 0;
 }
 
 #bg1 {
@@ -1131,7 +1148,7 @@
     }
 
     #vibrant1 {display: none;}
-    #wb1, .line1, .wb2, #bg0, #relate0, #vibrant2, #bg2 {display:block;}
+    #wb1, .line1, .wb2, #bg0, #relate0, #vibrant2, #bg2, #bg20 {display:block;}
     #bg1,#relate {
         background: transparent;
     }
