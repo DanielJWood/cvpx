@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(151,188,240);
+    /*background-color:rgb(151,188,240);*/
 }
 
 #skrollr-body {
@@ -176,7 +176,7 @@ body {
  }
 
 #bg0-cont,
-#bg1-cont,
+#la-background-cont,
 #our-food-cont,
 #savor-container, 
 #locations-cont, 
@@ -195,10 +195,10 @@ body {
 }
 
 #bg0-cont{
-    z-index: -10;
+    z-index: 0;
 }
 
-#bg1-cont {
+#la-background-cont {
     z-index: 1;
 }
 
@@ -251,7 +251,7 @@ body {
     bottom: 0;
 }
 
-#bg1 {
+#la-background {
     margin-top: -35%;
     width: 100%;
     height: 0;
@@ -363,14 +363,14 @@ body {
     border-top: 1000px solid #f6a11e;   
 }
 
-#relate0-cont, #relate-cont {
+#bg1-cont, #relate-cont {
     width: 100%;
     height: auto;
     position: relative;
     z-index: 1;
     left: -15%;
 }
-#relate0-cont {
+#bg1-cont {
     z-index: -11;
 }
 
@@ -394,7 +394,7 @@ body {
     padding-top: 125%;
 }
 
-#relate0 {
+#bg1 {
     position: fixed;
     margin-top: -16%;
     width: 153%;
@@ -1148,8 +1148,8 @@ body {
     }
 
     #vibrant1 {display: none;}
-    #wb1, .line1, .wb2, #bg0, #relate0, #vibrant2, #bg2, #bg20 {display:block;}
-    #bg1,#relate {
+    #wb1, .line1, .wb2, #bg0, #bg1, #vibrant2, #bg2, #bg20 {display:block;}
+    #la-background,#relate {
         background: transparent;
     }
     #savor {padding-bottom: 50%;}
