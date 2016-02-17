@@ -760,7 +760,7 @@
     margin-top: -12%;
     width: 100%;
     height: 0;
-    background: url(../files/pngs/caMap-01_1500_cutout.png),linear-gradient(transparent, white,white);
+    background: url(../files/pngs/caMap-01_1300_cutout.png),linear-gradient(transparent, white,white);
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 100%;
@@ -839,7 +839,7 @@
     padding-top: 20%;
     background-color: #f6a11e; 
     margin-top: -20%;
-    z-index: 531;       
+    z-index: 531;        
 }
 #cook {
     padding-top: 20%;
