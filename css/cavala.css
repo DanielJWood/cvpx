@@ -90,7 +90,7 @@
 
 .row h4.serif {
     letter-spacing: .1rem;
-    line-height: 120%;
+    line-height: 140%;
 }
 
 /*content elements*/
@@ -206,7 +206,7 @@
     margin-top: -50%;
     width: 110%;
     height: 0;
-    background:url(../files/pngs/02_laSkyline.jpg);
+    background:url(../files/pngs/02_laSkyline_1800.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 165.8%;
@@ -235,7 +235,7 @@
     margin-top: -35%;
     width: 100%;
     height: 0;
-    background:url(../files/pngs/02_laSkyline.jpg);
+    background:url(../files/pngs/02_laSkyline_1800.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 149.8%;
@@ -485,6 +485,7 @@
     left: -150px;
     overflow:visible;
     display: none;
+    padding-right: 20px;
 }
 
 #l2 {
@@ -583,7 +584,7 @@
 #partners {
     width: 100%;
     height: 0;
-    background:url(../files/pngs/27_partners_cactusBackground_1500.jpg);
+    background:url(../files/pngs/27_partners_cactusBackground_1300.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 210%;
@@ -677,8 +678,8 @@
 }
 
 #partner-info p {
-    font-size: 0.9rem;
-    line-height: 130%;
+    font-size: 1rem;
+    line-height: 140%;
     margin-bottom: 5px;
 }
 
@@ -1165,6 +1166,7 @@
         height: 500px;
     }
     #menu-button {
+        padding-top: 20px;
         width: 50%;    
     }
     #footer {
