@@ -1,3 +1,14 @@
+$(document).ready(function(){
+
+	$("#master_container *").not("#master_container > #bg00 *").addClass("fade")
+	$("#bg00").removeClass("fade")
+	$(".fade").hide(0).delay(500).fadeIn(3000);
+
+
+});
+
+
+
 var pbubTextData = [
 [["Sugarbloom Bakery"],["Headed up by designer turned classically trained pastry chef Sharon Wang, Sugarbloom Bakery creates addictive sweets and treats for LA. At CAVA, we’re serving Sugarbloom’s Triple Threat Chocolate Chunk Cookie, enriched with three types of chocolate and a sprinkle of sea salt."],["partners_sugarbloom.png"]],
 [["Garden School Foundation"],["The Garden School Foundation is a community-based organization that aims to meaningfully educate underserved youth through garden-based learning. CAVA happily bolsters the foundation’s efforts through financial support, program promotion, and volunteer service."],["partners_gardenSchoolFoundation.png"]],
