@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
-	$("#master_container *").not("#master_container > #bg00 *").addClass("fade")
-	$("#bg00").removeClass("fade")
-	$(".fade").hide(0).delay(500).fadeIn(3000);
+	// $("#master_container *").not("#master_container > #bg00 *").addClass("fade")
+	// $("#bg00").removeClass("fade")
+	$("body").hide(0).delay(500).fadeIn(3000);
 
 
 });
