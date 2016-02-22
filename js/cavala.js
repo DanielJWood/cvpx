@@ -1,23 +1,9 @@
 $(document).ready(function(){
 	$("body").hide(0)
-	// $("#master_container *").hide(0)
-	// $("#bg00").removeClass("fade")
-	
-
-
 });
 
 $(window).on("load", function() {
-	// $("#bg00").show()
-	// $("#bg0-cont").show()
-	
-	// $("#bg0").on("fadein", function(){
-	// 	$("#master_container *").delay(3000).fadeIn(3000)	
-	// 	console.log("faded, drank")
-	// })	
-
-	// $("#bg0").fadeIn(3000).trigger("fadein");
-		$("body").delay(1000).fadeIn(3000)
+	$("body").fadeIn(2000)
     
     
 });
