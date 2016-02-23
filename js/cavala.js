@@ -1,11 +1,18 @@
+var img = new Image();
+img.src = '../files/pngs/02_laSkyline_1800.jpg';
+
+img.onload = function() {
+    $("#bg0").parents().addBack().fadeIn(1000)
+};
+
 $(document).ready(function(){
-	$("body").hide(0)
+	$(".row").hide(0)
+	console.log('test2')
 });
 
 $(window).on("load", function() {
-	$("body").fadeIn(2000)
-    
-    
+	$(".row").fadeIn(2000)
+	console.log("test3")
 });
 
 
